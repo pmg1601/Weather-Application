@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{>headerlinks}}
+    </head>
+
+    <body>
+        {{>navbar}}
+
+        {{!-- /* ------------------------------- Main Header ------------------------------ */ --}}
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+                        <!-- left side div -->
+                        <div class="col-md-12 col-12 main_header_left align-items-center">
+                            <figure class="errimg">
+                                <img src="img/404.jpg" alt="image" class="img-fluid" title="About page img">
+                            </figure>
+
+                            <p>You Lost Your Way!</p>
+                            <h1>{{errmsg}}</h1>
+                            <a href="/"> <button>Go Home!</button></a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{!-- /* ------------------------------- Footer Code ------------------------------ */ --}}
+        {{>footer}}
+    </body>
+</html>

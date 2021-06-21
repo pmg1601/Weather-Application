@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{>headerlinks}}
+    </head>
+
+    <body>
+        {{>navbar}}
+
+        {{!-- /* ------------------------------- Main Header ------------------------------ */ --}}
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+                        <!-- left side div -->
+                        <div class="col-md-6 col-12 main_header_right">
+                            <figure>
+                                <img src="img/bg1.jpg" alt="image" class="img-fluid" title="About page img">
+                            </figure>
+                        </div>
+                        
+                        <!-- Right side div -->
+                        <div class="col-md-6 col-12 main_header_left">
+                            <p>Welcome to weather app!</p>
+                            <h1>I am a <span class="text-clr"> Weather Man </span>, who will change your life by showing weather of your city! </h1>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{!-- /* ------------------------------- Footer Code ------------------------------ */ --}}
+        {{>footer}}
+    </body>
+</html>
